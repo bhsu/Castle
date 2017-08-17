@@ -23,7 +23,7 @@ public class Castle {
 	// assumes all int numbers are positive
 	public static int countCastles(int[] array){
 		int castles = 0, peak = 0, valley = 0;
-		System.out.println("array length " + array.length);
+		
 		// base cases
 		if(array.length == 0){
 			return 0;
